@@ -1,0 +1,6 @@
+file_id,rt,responses,trial_type,trial_index,time_elapsed,internal_node_id,view_history,stimulus,button_pressed,key_press
+data_2025-03-27-12-57-10_evumpdl3o2,2369.699999999255,"{""Participant ID"":""t""}",survey-text,0,2372,0.0-0.0-0.0-0.0,NA,NA,NA,NA
+data_2025-03-27-12-57-10_evumpdl3o2,613.9000000003725,NA,instructions,1,2986,0.0-0.0-1.0,"[{""page_index"":0,""viewing_time"":613.7000000011176}]",NA,NA,NA
+data_2025-03-27-12-57-10_evumpdl3o2,1949.9000000003723,NA,audio-button-response,2,5938,0.0-0.0-2.0-0.0,NA,resource/audio/oyster_US.mp3,0,NA
+data_2025-03-27-12-57-10_evumpdl3o2,4396.60000000149,NA,audio-button-response,3,10336,0.0-0.0-2.0-1.0,NA,resource/audio/blank.mp3,1,NA
+data_2025-03-27-12-57-10_evumpdl3o2,11038.900000000373,NA,html-keyboard-response,4,21375,0.0-0.0-3.0,NA,All done! Press the space button before exiting this window!,NA,32

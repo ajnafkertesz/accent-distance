@@ -1,0 +1,6 @@
+file_id,rt,responses,trial_type,trial_index,time_elapsed,internal_node_id,view_history,stimulus,button_pressed,key_press
+data_2025-03-27-12-05-39_mggy66cmz8,2307.0999999996275,"{""Participant ID"":""gtes""}",survey-text,0,2316,0.0-0.0-0.0-0.0,NA,NA,NA,NA
+data_2025-03-27-12-05-39_mggy66cmz8,808.3999999994412,NA,instructions,1,3125,0.0-0.0-1.0,"[{""page_index"":0,""viewing_time"":808.2999999998137}]",NA,NA,NA
+data_2025-03-27-12-05-39_mggy66cmz8,2248.2999999998137,NA,audio-button-response,2,6389,0.0-0.0-2.0-0.0,NA,resource/audio/octopus_US.mp3,0,NA
+data_2025-03-27-12-05-39_mggy66cmz8,1008.6999999992548,NA,audio-button-response,3,7399,0.0-0.0-2.0-1.0,NA,resource/audio/blank.mp3,0,NA
+data_2025-03-27-12-05-39_mggy66cmz8,6630.5999999996275,NA,html-keyboard-response,4,14030,0.0-0.0-3.0,NA,All done! Press the space button before exiting this window!,NA,17
