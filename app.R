@@ -40,7 +40,7 @@ id_part <- build_timeline(id_quest)
 
 # Instructions for experiment
 instructions1 <- trial_instructions(
-  pages = c("Welcome to the Phonetic Similarity Study"),
+  pages = c("Welcome to the Phonetic Similarity Study \n First you will hear a target word, followed by two differently accented pronunciations of the same word. \n Please select the word that sounds most similar to the target. \n There will be 30 trials in total. "),
   show_clickable_nav = TRUE,
   post_trial_gap = 1000
 )
