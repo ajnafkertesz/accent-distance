@@ -23,7 +23,7 @@ var timeline = {
     },
     {
       "type": ["instructions"],
-      "pages": ["Welcome to the Phonetic Similarity Study"],
+      "pages": ["Welcome to the Phonetic Similarity Study \n First you will hear a target word, followed by two differently accented pronunciations of the same word. \n Please select the word that sounds most similar to the target. \n There will be 30 trials in total. "],
       "key_forward": [39],
       "key_backward": [37],
       "allow_backward": true,
@@ -37,7 +37,7 @@ var timeline = {
       "timeline": [
         {
           "type": ["audio-button-response"],
-          "stimulus": ["resource/audio/corral_US.mp3"],
+          "stimulus": ["resource/audio/critter_US.mp3"],
           "choices": ["Next"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
@@ -49,7 +49,7 @@ var timeline = {
           "type": ["audio-button-response"],
           "stimulus": ["resource/audio/blank.mp3"],
           "choices": ["Voice 1", "Voice 2"],
-          "button_html": ["<audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/corral_TR.mp3\"><\/audio>", "<audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/corral_NZ.mp3\"><\/audio>"],
+          "button_html": ["<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/critter_TR.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">critter_TR.mp3<\/div><\/div>", "<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/critter_NZ.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">critter_NZ.mp3<\/div><\/div>"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
           "trial_ends_after_audio": false,
@@ -58,7 +58,7 @@ var timeline = {
         },
         {
           "type": ["audio-button-response"],
-          "stimulus": ["resource/audio/aftershave_US.mp3"],
+          "stimulus": ["resource/audio/scrapbook_US.mp3"],
           "choices": ["Next"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
@@ -70,7 +70,7 @@ var timeline = {
           "type": ["audio-button-response"],
           "stimulus": ["resource/audio/blank.mp3"],
           "choices": ["Voice 1", "Voice 2"],
-          "button_html": ["<audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/aftershave_NZ.mp3\"><\/audio>", "<audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/aftershave_TR.mp3\"><\/audio>"],
+          "button_html": ["<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/scrapbook_NZ.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">scrapbook_NZ.mp3<\/div><\/div>", "<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/scrapbook_TR.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">scrapbook_TR.mp3<\/div><\/div>"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
           "trial_ends_after_audio": false,
@@ -79,7 +79,7 @@ var timeline = {
         },
         {
           "type": ["audio-button-response"],
-          "stimulus": ["resource/audio/bagel_US.mp3"],
+          "stimulus": ["resource/audio/zebra_US.mp3"],
           "choices": ["Next"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
@@ -91,7 +91,7 @@ var timeline = {
           "type": ["audio-button-response"],
           "stimulus": ["resource/audio/blank.mp3"],
           "choices": ["Voice 1", "Voice 2"],
-          "button_html": ["<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/bagel_TR.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">bagel_TR.mp3<\/div><\/div>", "<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/bagel_NZ.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">bagel_NZ.mp3<\/div><\/div>"],
+          "button_html": ["<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/zebra_TR.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">zebra_TR.mp3<\/div><\/div>", "<div style=\"display:inline-block; width:45%; margin: 1%; text-align:center; vertical-align:top;\"><audio controls preload=\"none\" onclick=\"this.play()\"><source type=\"audio/mpeg\" src=\"resource/audio/zebra_NZ.mp3\"><\/audio><div style=\"display:inline-block; padding:10px 20px; background-color:#007BFF; color:white; border-radius:6px; cursor:pointer; font-weight:bold;\">zebra_NZ.mp3<\/div><\/div>"],
           "margin_vertical": ["0px"],
           "margin_horizontal": ["8px"],
           "trial_ends_after_audio": false,

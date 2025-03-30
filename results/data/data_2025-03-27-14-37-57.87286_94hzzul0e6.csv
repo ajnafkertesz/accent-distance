@@ -1,0 +1,10 @@
+file_id,rt,responses,trial_type,trial_index,time_elapsed,internal_node_id,view_history,stimulus,button_pressed,key_press
+data_2025-03-27-14-37-57.87286_94hzzul0e6,1646125,"{""Participant ID"":""test""}",survey-text,0,1646111,0.0-0.0-0.0-0.0,NA,NA,NA,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,9447,NA,instructions,1,1655559,0.0-0.0-1.0,"[{""page_index"":0,""viewing_time"":9447}]",NA,NA,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,4862,NA,audio-button-response,2,1661426,0.0-0.0-2.0-0.0,NA,resource/audio/critter_US.mp3,0,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,5320,NA,audio-button-response,3,1666812,0.0-0.0-2.0-1.0,NA,resource/audio/blank.mp3,0,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,2395,NA,audio-button-response,4,1669207,0.0-0.0-2.0-2.0,NA,resource/audio/scrapbook_US.mp3,0,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,1658.0000000002328,NA,audio-button-response,5,1670893,0.0-0.0-2.0-3.0,NA,resource/audio/blank.mp3,0,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,2496,NA,audio-button-response,6,1673390,0.0-0.0-2.0-4.0,NA,resource/audio/zebra_US.mp3,0,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,15440,NA,audio-button-response,7,1688857,0.0-0.0-2.0-5.0,NA,resource/audio/blank.mp3,1,NA
+data_2025-03-27-14-37-57.87286_94hzzul0e6,8393,NA,html-keyboard-response,8,1697251,0.0-0.0-3.0,NA,All done! Press the space button before exiting this window!,NA,32
