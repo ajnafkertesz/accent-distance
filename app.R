@@ -56,7 +56,7 @@ instructions1 <- trial_instructions(
 
 # trial 1
 trial1 <- trial_instructions(
-  pages = c("Trial 1: Click on the \"Next\" button to get started."),
+  pages = c("Trial 1: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -122,7 +122,7 @@ response1 <- trial_audio_button_response(
 
 # trial 2
 trial2 <- trial_instructions(
-  pages = c("Trial 2: Click on the \"Next\" button to get started."),
+  pages = c("Trial 2: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -180,7 +180,7 @@ response2 <- trial_audio_button_response(
 
 # trial 3
 trial3 <- trial_instructions(
-  pages = c("Trial 3: Click on the \"Next\" button to get started."),
+  pages = c("Trial 3: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -238,7 +238,7 @@ response3 <- trial_audio_button_response(
 
 # trial 4
 trial4 <- trial_instructions(
-  pages = c("Trial 4: Click on the \"Next\" button to get started."),
+  pages = c("Trial 4: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -296,7 +296,7 @@ response4 <- trial_audio_button_response(
 
 # trial 5
 trial5 <- trial_instructions(
-  pages = c("Trial 5: Click on the \"Next\" button to get started."),
+  pages = c("Trial 5: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -354,7 +354,7 @@ response5 <- trial_audio_button_response(
 
 # trial 6
 trial6 <- trial_instructions(
-  pages = c("Trial 6: Click on the \"Next\" button to get started."),
+  pages = c("Trial 6: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -412,7 +412,7 @@ response6 <- trial_audio_button_response(
 
 # trial 7
 trial7 <- trial_instructions(
-  pages = c("Trial 7: Click on the \"Next\" button to get started."),
+  pages = c("Trial 7: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -470,7 +470,7 @@ response7 <- trial_audio_button_response(
 
 # trial 8
 trial8 <- trial_instructions(
-  pages = c("Trial 8: Click on the \"Next\" button to get started."),
+  pages = c("Trial 8: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -528,7 +528,7 @@ response8 <- trial_audio_button_response(
 
 # trial 9
 trial9 <- trial_instructions(
-  pages = c("Trial 9: Click on the \"Next\" button to get started."),
+  pages = c("Trial 9: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -586,7 +586,7 @@ response9 <- trial_audio_button_response(
 
 # trial 10
 trial10 <- trial_instructions(
-  pages = c("Trial 10: Click on the \"Next\" button to get started."),
+  pages = c("Trial 10: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -644,7 +644,7 @@ response10 <- trial_audio_button_response(
 
 # trial 11
 trial11 <- trial_instructions(
-  pages = c("Trial 11: Click on the \"Next\" button to get started."),
+  pages = c("Trial 11: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -702,7 +702,7 @@ response11 <- trial_audio_button_response(
 
 # trial 12
 trial12 <- trial_instructions(
-  pages = c("Trial 12: Click on the \"Next\" button to get started."),
+  pages = c("Trial 12: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -760,7 +760,7 @@ response12 <- trial_audio_button_response(
 
 # trial 13
 trial13 <- trial_instructions(
-  pages = c("Trial 13: Click on the \"Next\" button to get started."),
+  pages = c("Trial 13: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -818,7 +818,7 @@ response13 <- trial_audio_button_response(
 
 # trial 14
 trial14 <- trial_instructions(
-  pages = c("Trial 14: Click on the \"Next\" button to get started."),
+  pages = c("Trial 14: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -876,7 +876,7 @@ response14 <- trial_audio_button_response(
 
 # trial 15
 trial15 <- trial_instructions(
-  pages = c("Trial 15: Click on the \"Next\" button to get started."),
+  pages = c("Trial 15: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -934,7 +934,7 @@ response15 <- trial_audio_button_response(
 
 # trial 16
 trial16 <- trial_instructions(
-  pages = c("Trial 16: Click on the \"Next\" button to get started."),
+  pages = c("Trial 16: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -992,7 +992,7 @@ response16 <- trial_audio_button_response(
 
 # trial 17
 trial17 <- trial_instructions(
-  pages = c("Trial 17: Click on the \"Next\" button to get started."),
+  pages = c("Trial 17: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1050,7 +1050,7 @@ response17 <- trial_audio_button_response(
 
 # trial 18
 trial18 <- trial_instructions(
-  pages = c("Trial 18: Click on the \"Next\" button to get started."),
+  pages = c("Trial 18: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1108,7 +1108,7 @@ response18 <- trial_audio_button_response(
 
 # trial 19
 trial19 <- trial_instructions(
-  pages = c("Trial 19: Click on the \"Next\" button to get started."),
+  pages = c("Trial 19: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1166,7 +1166,7 @@ response19 <- trial_audio_button_response(
 
 # trial 20
 trial20 <- trial_instructions(
-  pages = c("Trial 20: Click on the \"Next\" button to get started."),
+  pages = c("Trial 20: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1224,7 +1224,7 @@ response20 <- trial_audio_button_response(
 
 # trial 21
 trial21 <- trial_instructions(
-  pages = c("Trial 21: Click on the \"Next\" button to get started."),
+  pages = c("Trial 21: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1282,7 +1282,7 @@ response21 <- trial_audio_button_response(
 
 # trial 22
 trial22 <- trial_instructions(
-  pages = c("Trial 22: Click on the \"Next\" button to get started."),
+  pages = c("Trial 22: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1340,7 +1340,7 @@ response22 <- trial_audio_button_response(
 
 # trial 23
 trial23 <- trial_instructions(
-  pages = c("Trial 23: Click on the \"Next\" button to get started."),
+  pages = c("Trial 23: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1398,7 +1398,7 @@ response23 <- trial_audio_button_response(
 
 # trial 24
 trial24 <- trial_instructions(
-  pages = c("Trial 24: Click on the \"Next\" button to get started."),
+  pages = c("Trial 24: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1456,7 +1456,7 @@ response24 <- trial_audio_button_response(
 
 # trial 25
 trial25 <- trial_instructions(
-  pages = c("Trial 25: Click on the \"Next\" button to get started."),
+  pages = c("Trial 25: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1514,7 +1514,7 @@ response25 <- trial_audio_button_response(
 
 # trial 26
 trial26 <- trial_instructions(
-  pages = c("Trial 26: Click on the \"Next\" button to get started."),
+  pages = c("Trial 26: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1572,7 +1572,7 @@ response26 <- trial_audio_button_response(
 
 # trial 27
 trial27 <- trial_instructions(
-  pages = c("Trial 27: Click on the \"Next\" button to get started."),
+  pages = c("Trial 27: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1630,7 +1630,7 @@ response27 <- trial_audio_button_response(
 
 # trial 28
 trial28 <- trial_instructions(
-  pages = c("Trial 28: Click on the \"Next\" button to get started."),
+  pages = c("Trial 28: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1677,7 +1677,7 @@ second_prompt28 <- trial_audio_button_response(
 
 response28 <- trial_audio_button_response(
   stimulus = insert_resource('blank.mp3'),
-  prompt = "Please select the speaker that sounds most similar to the target",
+  prompt = "Please select the speaker that sounds most similar to listen.",
   choices = c("Voice 1", "Voice 2"),
   button_html = html_choices,
   trial_ends_after_audio = FALSE,
@@ -1688,7 +1688,7 @@ response28 <- trial_audio_button_response(
 
 # trial 29
 trial29 <- trial_instructions(
-  pages = c("Trial 29: Click on the \"Next\" button to get started."),
+  pages = c("Trial 29: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1746,7 +1746,7 @@ response29 <- trial_audio_button_response(
 
 # trial 30
 trial30 <- trial_instructions(
-  pages = c("Trial 30: Click on the \"Next\" button to get started."),
+  pages = c("Trial 30: Click on the \"Next\" button to listen."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
