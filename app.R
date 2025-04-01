@@ -45,7 +45,10 @@ id_part <- build_timeline(id_quest)
 
 # Instructions for experiment
 instructions1 <- trial_instructions(
-  pages = c("Welcome to the Phonetic Similarity Study \n First you will hear a target word, followed by two differently accented pronunciations of the same word. \n Please select the word that sounds most similar to the target. \n There will be 30 trials in total. "),
+  pages = c("Welcome to the Phonetic Similarity Study! 
+  First you will see the audio icon on the top turn black and you will hear a target word. 
+  Next the audio icon under speaker 1 will turn black and you'll hear from them, followed by speaker 2 shortly after.
+  Please select the speaker that sounds most similar to the target. There will be 30 trials in total. Click next to begin the study."),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1838,7 +1841,7 @@ trials <- build_timeline(trial1, us_prompt1, first_prompt1, second_prompt1,
 
 # (2) Finish screen
 finish <- trial_html_keyboard_response(
-  stimulus = "Thank you for your participation! To receive full credit you will be redirected to complete a brief demographic questionnaire. https://utexas.qualtrics.com/jfe/form/SV_es5YLeHNdLkWZ4W",
+  stimulus = "Thank you for your participation, your responses have been recorded! Please let the research assistant know that you're ready to complete a brief demographic questionnaire. Press SPACE to exit.",
   choices = respond_any_key()
 )
 
