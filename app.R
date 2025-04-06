@@ -45,10 +45,39 @@ id_part <- build_timeline(id_quest)
 
 # Instructions for experiment
 instructions1 <- trial_instructions(
-  pages = c("Welcome to the Phonetic Similarity Study! 
-  First you will see the audio icon on the top turn black and you will hear a target word. 
-  Next the audio icon under speaker 1 will turn black and you'll hear from them, followed by speaker 2 shortly after.
-  Please select the speaker that sounds most similar to the target. There will be 30 trials in total. Click next to begin the study."),
+  pages = c('<p>Welcome to the Phonetic Similarity Study!</p>
+  <p>To read the instructions, click "Next".</p>'),
+  show_clickable_nav = TRUE,
+  post_trial_gap = 250
+)
+
+instructions2 <- trial_instructions(
+  pages = instruction_page1,
+  show_clickable_nav = TRUE,
+  post_trial_gap = 250
+)
+
+instructions3 <- trial_instructions(
+  pages = instruction_page2,
+  show_clickable_nav = TRUE,
+  post_trial_gap = 250
+)
+
+instructions4 <- trial_instructions(
+  pages = instruction_page3,
+  show_clickable_nav = TRUE,
+  post_trial_gap = 250
+)
+
+instructions5 <- trial_instructions(
+  pages = instruction_page4,
+  show_clickable_nav = TRUE,
+  post_trial_gap = 250
+)
+
+instructions6 <- trial_instructions(
+  pages = c('<p>There will be 30 trials in total.</p>
+  <p>Click "Next" to begin the study.</p>'),
   show_clickable_nav = TRUE,
   post_trial_gap = 250
 )
@@ -1841,13 +1870,14 @@ trials <- build_timeline(trial1, us_prompt1, first_prompt1, second_prompt1,
 
 # (2) Finish screen
 finish <- trial_html_keyboard_response(
-  stimulus = "Thank you for your participation, your responses have been recorded! Please let the research assistant know that you're ready to complete a brief demographic questionnaire. Press SPACE to exit.",
+  stimulus = "<p>Thank you for your participation, your responses have been recorded!</p>
+  <p>To receive full credit, please complete the following demographic form. Click <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://utexas.qualtrics.com/jfe/form/SV_es5YLeHNdLkWZ4W\">here</a> to proceed.</p>",
   choices = respond_any_key()
 )
 
 # build final experiment
 build_experiment(
-  timeline = build_timeline(id_part, instructions1, trials, finish),
+  timeline = build_timeline(id_part, instructions1, instructions2, instructions3, instructions4, instructions5, instructions6, finish, trials),
   path = exp_path,
   resources = build_resources(resource_folder),
   use_webaudio = TRUE,
