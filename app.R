@@ -1877,7 +1877,7 @@ finish <- trial_html_keyboard_response(
 
 # build final experiment
 build_experiment(
-  timeline = build_timeline(id_part, instructions1, instructions2, instructions3, instructions4, instructions5, instructions6, finish, trials),
+  timeline = build_timeline(id_part, instructions1, instructions2, instructions3, instructions4, instructions5, instructions6, trials, finish),
   path = exp_path,
   resources = build_resources(resource_folder),
   use_webaudio = TRUE,
