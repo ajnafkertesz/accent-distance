@@ -1,4 +1,0 @@
-file_id,rt,responses,trial_type,trial_index,time_elapsed,internal_node_id,view_history,stimulus,key_press
-data_2025-03-27-10-33-43_am6253b8av,5753.40000000014,"{""Participant ID"":""test""}",survey-text,0,5762,0.0-0.0-0.0-0.0,NA,NA,NA
-data_2025-03-27-10-33-43_am6253b8av,758.1999999999534,NA,instructions,1,6521,0.0-0.0-1.0,"[{""page_index"":0,""viewing_time"":758}]",NA,NA
-data_2025-03-27-10-33-43_am6253b8av,960.6000000000932,NA,html-keyboard-response,2,8483,0.0-0.0-2.0,NA,All done! Press the space button before exiting this window!,32

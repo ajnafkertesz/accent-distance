@@ -1,0 +1,52 @@
+---
+title: "Explore"
+author: "Farukh"
+date: "2025-05-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r load}
+data <- read_csv("results/combined/data_2025-May-18.csv")
+
+data
+```
+
+```{r group by stimulus}
+grouped_stim <- data %>%
+  group_by(stimulus_word) %>%
+  count(selected_speaker, name = "count")
+
+pivot_stim <- grouped_stim %>% 
+    pivot_wider(
+      names_from="selected_speaker",
+      values_from ="count",
+      values_fill = 0
+    )
+
+pivot_stim
+```
+```{r  totals}
+print(sum(pivot_stim[, c('NZ')]))
+
+print(sum(pivot_stim[, c('TR')]))
+```
+```{r group by id}
+grouped_id <- data %>%
+  group_by(id) %>%
+  count(selected_speaker, name = "count")
+
+pivot_id <- grouped_id %>% 
+    pivot_wider(
+      names_from="selected_speaker",
+      values_from ="count",
+      values_fill = 0
+    )
+
+pivot_id
+```

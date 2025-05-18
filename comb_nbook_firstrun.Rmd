@@ -1,0 +1,77 @@
+---
+title: "combine_data"
+author: "Faruknak Hivnak"
+date: "2025-05-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step 1: Combine the Data & Create ID Column
+
+Combine all CSV files from results/data
+
+```{r load}
+library(tidyverse)
+library(stringr)
+
+folder_path <- "results/data/"
+
+csv_files <- list.files(path = folder_path, pattern = "\\.csv$", full.names = TRUE)
+
+data_files <- list()
+
+# Iterate through each file and map the unique id to each participant file
+for (file in csv_files) {
+  data <- read_csv(file)
+
+  part_id <- str_extract(data$responses[1], '(?<="Participant ID":")[^"]+')
+  data <- data %>% mutate(id=part_id)
+
+  data_files[[length(data_files) + 1]] <- data
+}
+
+
+all_data <- bind_rows(data_files)
+
+head(all_data)
+```
+
+## Step 2: Drop Unneeded Columns & Extract Responses
+
+```{r transform}
+# Drop columns not included in analysis
+dropped_data <- subset(all_data, select = -c(file_id, rt, responses, trial_type, trial_index, time_elapsed, internal_node_id, view_history, key_press) )
+
+# Extract selected speaker from response (grabbing only two letter accent),
+# extract stimulus word from 3 rows above in the "stimulus" column
+selected_rows <- dropped_data %>%
+  mutate(
+    speakers_list = str_split(speakers, ",\\s*"),
+    speaker_file = map2_chr(speakers_list, button_pressed, ~ .x[as.integer(.y) + 1]),
+    selected_speaker = str_extract(speaker_file, "([A-Za-z]{2})(?=\\.mp3$)"),
+    stimulus_file = lag(stimulus, 3),
+    stimulus_word = str_extract(stimulus_file, "(?<=resource/audio/)(.*)(?=_[A-Za-z]{2}\\.mp3$)")
+  )
+
+# Now that we've transformed our data, drop columns again
+selected_rows <- subset(selected_rows, select = -c(stimulus, button_pressed, speakers, speakers_list, speaker_file, stimulus_file) )
+
+# Drop all null rows
+final_set <- na.omit(selected_rows)
+
+final_set
+```
+
+## Step 3: Write out to Results Folder
+
+Attach date to file
+
+```{r save}
+
+write.csv(final_set,paste("results/combined/data",format(Sys.Date(),"_%Y-%b-%d"),".csv",sep=""), row.names=FALSE)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,9 +1,0 @@
-file_id,rt,responses,trial_type,trial_index,time_elapsed,internal_node_id,view_history,stimulus,button_pressed,speakers,key_press
-data_2025-03-31-00-32-20_hnq068ufph,5719.699999988079,"{""Participant ID"":""test""}",survey-text,0,5727,0.0-0.0-0.0-0.0,NA,NA,NA,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,1031.9000000059605,NA,instructions,1,6760,0.0-0.0-1.0,"[{""page_index"":0,""viewing_time"":1031.800000011921}]",NA,NA,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,517.3999999761581,NA,instructions,2,7541,0.0-0.0-2.0-0.0,"[{""page_index"":0,""viewing_time"":517.3999999761581}]",NA,NA,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,null,NA,audio-button-response,3,10312,0.0-0.0-2.0-1.0,NA,resource/audio/freezer_US.mp3,null,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,null,NA,audio-button-response,4,15325,0.0-0.0-2.0-2.0,NA,resource/audio/freezer_NZ.mp3,null,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,null,NA,audio-button-response,5,17351,0.0-0.0-2.0-3.0,NA,resource/audio/freezer_TR.mp3,null,NA,NA
-data_2025-03-31-00-32-20_hnq068ufph,2066.5999999940395,NA,audio-button-response,6,19670,0.0-0.0-2.0-4.0,NA,resource/audio/blank.mp3,1,"freezer_NZ.mp3,freezer_TR.mp3",NA
-data_2025-03-31-00-32-20_hnq068ufph,11400,NA,html-keyboard-response,7,31322,0.0-0.0-3.0,NA,Thank you for your participation! To receive full credit you will be redirected to complete a brief demographic questionnaire. https://utexas.qualtrics.com/jfe/form/SV_es5YLeHNdLkWZ4W,NA,NA,32
